@@ -1,0 +1,96 @@
+        /* Body */
+        html{
+            letter-spacing: 2px;
+            font-family: 'Young Serif', serif;
+            background-image: url('Background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Header */
+        div#header {
+            /* background: #00000040; */
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        /* Logo */
+        div#logo {
+            /* border: 2px solid red; */
+            display: -webkit-inline-box;
+        }
+
+        div#logo img {
+            height: 80px;
+            border-radius: 50px;
+            display: -webkit-inline-box;
+            width: 135px;
+            opacity: 85%;
+        }
+
+        /* Container */
+        div.container {
+            color: aqua;
+            text-align: center;
+            background: #0000002e;
+            border-radius: 3px;
+        }
+        div.input input {
+            font-family: 'Young Serif', serif;
+            padding: 5px 10px;
+            margin: 10px 10px;
+            width: 300px;
+            border-radius: 15px;
+            border: none;
+        }
+
+        div.input input[type='Radio'] {
+            width: 10px;
+        }
+
+        div.input input[type='Radio']:hover {
+            width: 10px;
+            cursor: pointer;
+        }
+
+        /* Input */
+        div.input input[type='submit'] {
+            background: rgba(0, 128, 0, 0.705);
+            border: none;
+            border-radius: 3px;
+            padding: 5px 15px;
+            margin: 5px 5px;
+            color: whitesmoke;
+            width: 80px;
+        }
+
+        div.input input[type='reset'] {
+            background: rgba(255, 0, 0, 0.705);
+            border: none;
+            border-radius: 3px;
+            padding: 5px 15px;
+            margin: 5px 5px;
+            color: whitesmoke;
+            width: 80px;
+        }
+
+        div.input input[type='submit']:hover {
+            background: rgb(0, 173, 0);
+            cursor: pointer;
+        }
+
+        div.input input[type='reset']:hover {
+            background: rgb(255, 0, 0);
+            cursor: pointer;
+        }
+
+        /* Information*/
+        div.row {
+            color: whitesmoke;
+            font-size: 16px;
+        }
+
+        /* Footer*/
+        footer {
+            color: red;
+        }
